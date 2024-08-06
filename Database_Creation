@@ -1,0 +1,11 @@
+//BASIC DATABASE CREATETION AND INSERTION OF DATA INTO O THE CREATED DATABASE//
+
+-create database Y;
+-use Y;
+-create table student(Roll_no int(3), Name varchar(25), Email varchar(20));
+-desc student;
+-alter table student add Address varchar(35) after Email;
+-alter table student add Sr_no int(3) first;
+-select * from student;
+-insert into student values(1,1,'YAJ','yaj@gmail.com','India'),(2,2,'BAJ','baj@gmail.com','America'),(3,3,'KNJ','knj@gmail.com','India');
+-select * from student;
